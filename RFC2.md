@@ -4,7 +4,7 @@ Authored by: MikeDEV <mike@meower.org>, Meower Team, on Thursday, April 7, 2022
 This RFC outlines the bare minimal design and structure of how Meower's servers/clients interact, and how user servers talk to each other. Also outlines general protections and features.
 
 ## Client and main server communication
-The main client and server will communicate utilizing REST APIs. Some of the specs for this has been detailed in RFC1. 
+The main client and server will communicate utilizing REST APIs.
 
 Clients will only need to communicate with the main server to do the following:
 1. Pull profile data
