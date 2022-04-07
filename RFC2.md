@@ -31,6 +31,7 @@ Users can utilize user servers to:
 2. Keep main server load down
 3. Pull content quicker (utilizing a bunch of user servers as a CDN)
 4. Offer alts
+5. Host secure communities
 
 Some minor specifications needed to maintain moderation of all systems as follows:
 1. A moderator of the main server will automatically be a moderator of all user servers.
