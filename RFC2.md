@@ -11,7 +11,7 @@ Clients will only need to communicate with the main server to do the following:
 2. Perform authentication
 3. Authorize 2FA requests for other Meower-authorized apps
 4. Download an index of other servers the user has joined.
-5. Utilize the main server as a basic social media platform, sharing photos and posts (similarly to twitter, as an example).
+5. Utilize the main server as a social media platform
 6. Offer a place for global announcements, forums, and other necessities not yet accomplished with existing Meower builds.
 7. Offer hosting for public communities
 
