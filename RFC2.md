@@ -30,7 +30,7 @@ Users can utilize user servers to:
 1. Have long, private, and secure communications
 2. Keep main server load down
 3. Pull content quicker (utilizing a bunch of user servers as a CDN)
-4. Offer alts
+4. Have alts
 5. Host secure communities
 
 Some minor specifications needed to maintain moderation of all systems as follows:
