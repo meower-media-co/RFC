@@ -34,6 +34,6 @@ Users can utilize user servers to:
 5. Host secure communities
 
 Some minor specifications needed to maintain moderation of all systems as follows:
-1. A moderator of the main server will automatically be a moderator of all user servers.
+1. A moderator of the main server will become a moderator of all servers that request moderation from the Meower Moderation team```
 3. All content must be filtered and verified by a minimum amount of user servers running scanners and filters. This will hopefully decrease the chances of malicious and/or obscene content from being shared.
 4. Main server and user server moderators have remote access to the server to perform standard antivirus software, ddos protection, and other misc. network administrative measures to keep services running smoothly.
