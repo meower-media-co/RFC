@@ -1,4 +1,4 @@
-# RFC 2 - Meower Basic Networking Architecture
+# RFC 2 - Functions of Meower Clients and Servers
 Authored by: MikeDEV <mike@meower.org>, Meower Team and William Horning <william@meower.org>, Meower Team, on Thursday, April 7, 2022
 ---
 This RFC outlines the functions of clients and servers.
