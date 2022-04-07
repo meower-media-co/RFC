@@ -25,7 +25,7 @@ Some functionality for user servers are:
 4. Offer hosting for private communities
 
 ## Client and user server communication
-Akin to discord servers, users can utilize user servers to:
+Users can utilize user servers to:
 
 1. Have long, private, and secure communications
 2. Keep main server load down
