@@ -22,7 +22,7 @@ Some functionality for user servers are:
 1. Store content shared within that server.
 2. Serve as a substitute in the event that the main server is down.
 3. Function similarly to a CDN. Servers will talk to each other (utilizing the main server as a "phonebook") and share posts, videos, music, etc. to improve load times for clients around the world.
-4. Offer voice and video chat functionality (similarly to discord, as an example).
+4. Offer hosting for private communities
 
 ## Client and user server communication
 Akin to discord servers, users can utilize user servers to:
