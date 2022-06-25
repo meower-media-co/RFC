@@ -1,32 +1,33 @@
-# RFC 3 - Meower Authentication
+# RFC 3 - Meower Foundation Authentication
 Authored by: Tnix <tnix@meower.org>, Meower Team, on Friday, June 24, 2022
 ---
-This document is meant to describe the authentication process of handling multiple authentication methods in Meower v0 API for foundation and OAuth authentication.
+This document is meant to describe the authentication process of handling multiple authentication methods in foundation authentication for Meower API v0.
 
 ## Authentication Methods
 
 ### All authentication types
 `password`: A generic user password. Will require multi-factor authentication if multi-factor authentication is enabled on the user's account.
 
-`email`: A code sent to the user's verified email address.
+`email`: A code sent to the user's verified email addresses.
 
-`webauthn`: A webauthn method such as a security key or secret stored on the user's device.
+`webauthn`: A WebAuthn method such as a security key or secret stored on the user's device.
 
-`totp`: A timed one time password using an authentication app. This is only used for mutli-factor authentication part of password authentication.
+`totp`: A timed one time password using an authentication app. This can only be used for mutli-factor authentication.
 
 `device`: A code that is generated then can be used on a device that is already authenticated.
 
 ### Authentication method limits
-`password`: Only 1 password can be added to an account.
+`password`: An account can only have 1 password at a time.
 
 `email`: An account can have 5 or less email addresses at a time.
 
-`webauthn`: An account can have 5 or less webauthn devices at a time.
+`webauthn`: An account can have 5 or less WebAuthn devices at a time.
 
 `totp`: An account can only have 1 TOTP device at a time.
 
 `device`: Any currently authenticated device can authenticate another device.
 
+### Authentication methods endpoint
 The `/oauth/auth-methods` endpoint is meant to return a content type of `application/json` with a status of `200` upon success.
 
 ### Getting authentication methods
@@ -39,23 +40,23 @@ The request should be structured like this:
     }
 }
 ```
-Example of a response of an account authentication methods with a password and a verified email address while not authenticated:
+Example of a response of an account's authentication methods with a password and a verified email address while not authenticated:
 ```json
 {
   "methods": ["password", "email"],
   "default": 0
 }
 ```
-While authenticated you will not need to give a request body, but you will not be able to get the authentication methods for other accounts other than the authenticated user. Example of a response of an account authentication methods with a password and a verified email address while authenticated:
+While authenticated you will not need to give a request body, but you will not be able to get the authentication methods for other accounts other than the currently authenticated account. Example of a response of an account's authentication methods with a password and a verified email address while authenticated:
 ```json
 {
   "methods": [{"_id": "uuid4", "type": "password"}, {"_id": "uuid4", "type": "email", "email_address": "example@meower.org"}],
   "default": 0
 }
 ```
-The default authentication type in the example shown above is their password, the `default` property is the array index of where their preferred authentication method is.
+The default authentication type in the examples shown above is their password, the `default` property is the array index of where their preferred authentication method is.
 
-### Add a new authentication method
+### Adding a new authentication method
 The request should be structured like this:
 ```json
 {
@@ -67,7 +68,7 @@ The request should be structured like this:
 }
 ```
 
-### Delete an authentication method
+### Deleting an authentication method
 The request should be structured like this:
 ```json
 {
@@ -115,6 +116,16 @@ The request should be structured like this:
     }
 }
 ```
+After the user inputs their unique code from the email they got, their client should send a request to `/oauth/login/email` with the following structure:
+```json
+{
+    "method": "POST",
+    "body": {
+        "username": ":username",
+        "code": ":code"
+    }
+}
+```
 ### WebAuthn
 The request should be structured like this:
 ```json
@@ -127,6 +138,29 @@ The request should be structured like this:
     }
 }
 ```
+### Device
+The request should be structured like this:
+```json
+{
+    "method": "POST",
+    "body": {
+        "username": ":username",
+        "auth_method": "device"
+    }
+}
+```
+Example of a response (the code will be the session token):
+```json
+{
+    "session": sessionObject (limited),
+    "user": userObject (limited),
+    "requires_mfa": false,
+    "mfa_options": null,
+    "requires_authentication_reset": false
+}
+```
+After the client gets the session data, it'll need to poll `/oauth/login/device` every 5 seconds with the `Authorization` header set to the session token/code. After it has been approved this endpoint will return a successful authentication payload.
+
 ## Multi-factor Authentication (only for password authentication)
 The only authentication type that requires multi-factor authentication if it's enabled is `password`. Multi-factor authentication acts exactly the same as first-stage authentication except it requires a token to prove first-stage authentication was already completed. Every authentication method is available for completing multi-factor authentication apart from `password`.
 
@@ -139,7 +173,7 @@ The request should be structured like this and include the multi-factor authenti
     "data": ":required_data"
 }
 ```
-The `data` property in the example shown above is where the data required to authenticate goes, so this may be in form of a TOTP code or information from a webauthn authentication device.
+The `data` property in the example shown above is where the data required to authenticate goes, so this may be in form of a TOTP code or information from a WebAuthn authentication device.
 ## Successful Authentication Response
 Example of a response of successful authentication:
 ```json
@@ -152,7 +186,7 @@ Example of a response of successful authentication:
 }
 ```
 ## Locked Accounts
-When an account is found to be doing suspicious activity or has been inactive for an extended amount of time, it may be locked to help prevent malicious attempts of accessing it.
+When an account is found to be doing suspicious activity or has been inactive for an extended period of time, it may be locked to help prevent malicious attempts of accessing it.
 
 When an account is locked the only authentication type that'll be available to use is `email`. If an account does not have a verified email, the user will have to reach out to support to get their account reinstated.
 
