@@ -10,10 +10,10 @@ The managers take complaints from team members about team leaders, and act on th
 ### Legal Team
 The legal team is responsible for the legal aspects of the Meower Development process, including the licensing of the Meower, and the Meower brand.
 
-## IT/Human Resources Team
-The IT/Human Resources Team is responsible for the management of the Meower infrastructure, including the Meower website, the Meower API, and the Meower database. They make sure that the infrastructure is secure, and that there are no vulnerabilities in any meower codebase.
+## IT Team
+The IT Team is responsible for the management of the Meower infrastructure, including the Meower website, the Meower API, and the Meower database. They make sure that the infrastructure is secure, and that there are no vulnerabilities in any meower codebase.
 
-Their other responsibility is to manage the Meower team, including adding to the team, and removing from the team.
+Their other responsibility is to manage the Meower team, including on-bording, and de-bording people from the team
 
 ## Public Relations/Marketing
 The Public Relations/Marketing team is responsible for the marketing of the Meower brand. They are also responsible for relations with the users of meoewer.
