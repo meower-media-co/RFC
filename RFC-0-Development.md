@@ -1,11 +1,13 @@
 # RFC 0 - Meower Development Process
-Authored by: ShowierData9978 <contact@showierdata.xyz> Meower Team, on Saturday, Febuary, 26, 2024, based on work by William Horning <william@meower.org>
+Authored by: ShowierData9978 <contact@showierdata.xyz> Meower Team, on Saturday, Febuary, 26, 2024
+
+Based on original RFC draft authored by William Horning <github@williamhorning.dev>
 ---
 The Meower Development process is made of multiple teams and processes and this document is meant to describe each team, their function, and the Meower Development workflow.
 ## Teams
 
 ### Managers
-The managers take complaints from team members about team leaders, and act on them if they are valid & nessasary.
+The managers take complaints from team members about team leaders, and act on them if they are valid & necessary.
 
 ### Legal Team
 The legal team is responsible for the legal aspects of the Meower Development process, including the licensing of the Meower, and the Meower brand.
@@ -13,10 +15,10 @@ The legal team is responsible for the legal aspects of the Meower Development pr
 ## IT Team
 The IT Team is responsible for the management of the Meower infrastructure, including the Meower website, the Meower API, and the Meower database. They make sure that the infrastructure is secure, and that there are no vulnerabilities in any meower codebase.
 
-Their other responsibility is to manage the Meower team, including on-bording, and de-bording people from the team
+Other responsibilities include onboarding and offboarding team members.
 
 ## Public Relations/Marketing
-The Public Relations/Marketing team is responsible for the marketing of the Meower brand. They are also responsible for relations with the users of meoewer.
+This team is responsible for promoting Meower and managing public relations.
 
 ## Moderation
 The moderation team is responsible for moderating the platform, and administrating the platform.
@@ -27,8 +29,7 @@ Frontend team is responsible for all things related to the frontend of the Meowe
 They also work on i18n.
 
 ### Backend Team
-The backend team is responsible for the backend and source code of Meower. Specifically, they are responsible for the Meower API, and Websocket.
-
+This team is responsible for developing the server software that powers Meower, as well as maintaining Meower's infrastructure.
 
 ### RFC Team
 The RFC team is meant to discuss standards, and the making of RFCs, which consist of standards in a standardized form. The structure of an RFC is as follows:
