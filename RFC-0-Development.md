@@ -25,7 +25,7 @@ The moderation team is responsible for moderating the platform, and administrati
 They are also the support team for the Meower platform. So they are responsible for the support/appeal emails.
 
 ## Frontend Team
-Frontend team is responsible for all things related to the frontend of the Meower platform, including the Meower website.
+Frontend team is responsible for all things related to the frontend of Meower, including the Meower website.
 They also work on i18n.
 
 ### Backend Team
