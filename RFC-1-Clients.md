@@ -114,9 +114,7 @@ We also have listed features that can be optionally excluded
     - You can exclude Sound Effects too, however we recommend you keep them.
 - Searching (APTE)
 - Blocking/reporting users
-- For moderation, deleting posts.
 - Bridge support
-
     Meower has various bridges that are offical, or are community made. They need to be supported so the syntax is not shown, leading to worse UX. 
 
     The current list of supported bridges are:
