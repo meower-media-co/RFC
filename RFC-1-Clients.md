@@ -1,13 +1,15 @@
 # RFC-1 - Client feature spec
 Authored by: ShowierData9978 <contact@showierdata.xyz>, Bloctans <bloctans2@protonmail.com>, derpygamer2142 <derpygamer2142@gmail.com>, Meower Team, on 4/18/24 (CT).
 
-This RFC applies to all clients that want to get featured. If you make a client just for the fun of it, you **DO NOT** need to follow this RFC, however it's recommended that you at least follow [Vulnerabilities] and not make clients that break the Meower TOS, Privacy Policy (unless stated otherwise, eg. custom privacy policy) or Kentucky/US law in any way, shape or form.
+**Note: This is currently a draft**
+
+Please remember to **READ THIS RFC VERY CAREFULLY**.
+
+This RFC applies to all **clients** that **want to get** featured. If you **make a client** just **for the fun** of it, you **DO NOT** need to follow this RFC, however it's recommended that you at least follow [Vulnerabilities](#vulnerabilities) and not make clients that break the Meower TOS, or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
 
 This also applies to client plugins in relevant areas (ie: [Design Practices](#design-practices))
 
 You can remove your client from the featured clients at any time for any reason. You are in absolute control of your project.
-
-**Note: This is currently a draft**
 
 ## Terms/Definitions
 
@@ -30,7 +32,7 @@ In other words, this RFC doesn't go easy on you.
 
 ## Rules
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
-- This should be obvious, however clients must not break the Meower TOS, Privacy Policy (unless stated otherwise, eg. custom privacy policy) or Kentucky/US law in any way, shape or form.
+- This should be obvious, however clients must not break the Meower TOS, or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
 - Custom privacy policies are allowed, but they are **HIGHLY DISCOURAGED**
 	- Custom privacy policies **DO NOT** provide a good user experience
 - Plugins are allowed, and are encouraged. They must still follow this RFC.
