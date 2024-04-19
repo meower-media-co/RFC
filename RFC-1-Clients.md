@@ -60,7 +60,9 @@ If you are using M.js, or a similar library you do not need to follow this sub-p
     You instead should use `?autoget` to grab the posts automatically.
 - Client side ratelimiting. 
 
-    This means that the client would keep track of requests,
+    This means that the client would keep track of requests, and stop them if the request count is too high for that endpoint/set of endpoints.
+
+    For example: Not sending like a post if the user has sent too many
 
 ### Vulnerabilities
 
