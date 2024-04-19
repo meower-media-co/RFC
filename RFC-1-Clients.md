@@ -115,7 +115,7 @@ We also have listed features that can be optionally excluded
 - For Moderation, Deleting posts.
 - Bridge Support
 
-    Meower has various bridges that are Offical, or are community made. They need to be suported so the syntax is not shown, leading to worse UX. 
+    Meower has various bridges that are Offical, or are community made. They need to be supported so the syntax is not shown, leading to worse UX. 
 
     The current list of supported bridges are:
         - Discord
