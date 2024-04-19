@@ -7,6 +7,8 @@ This also applies to client plugins in relevant areas. (ie: [Design practices](#
 
 You can remove your client from the featured clients at any time for any reason. You are in absolute control of your project
 
+**Note: This is currently a draft**
+
 ## Terms/Definitions
 
 - Us/We - The Meower team
