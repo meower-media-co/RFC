@@ -3,7 +3,7 @@ Authored by: ShowierData9978 <contact@showierdata.xyz>, Bloctans <bloctans2@prot
 
 This RFC applies to all clients that want to get featured. If you make a client just for the fun of it, you **DO NOT** need to follow this RFC, However its recommended that you at least follow [Vulnerabilities] and not make clients that break the Meower TOS, Privacy Policy (Unless stated otherwise, Eg. Custom Privacy Policy) or Kentucky/US law in any way, shape or form.
 
-This also applies to client plugins in relevant areas. (ie: [Design practices])
+This also applies to client plugins in relevant areas. (ie: [Design practices](#design-practices))
 
 You can remove your client from the featured clients at any time for any reason. You are in absolute control of your project
 
@@ -30,6 +30,7 @@ In other words, this RFC Doesn't go easy on you.
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
 - This should be obvious, However Clients Must not break the Meower TOS, Privacy Policy (Unless stated otherwise, Eg. Custom Privacy Policy) or Kentucky/US law in any way, shape or form.
 - Custom privacy policy's are allowed, but they are **HIGHLY DISCOURAGED**
+	- Custom Privacy policies **DO NOT** provide a good user experience
 - Plugins are allowed, and are encouraged. They must still follow this RFC.
 - Clients must have their own page so users can use it after it has been cycled out of being the featured client.
 - Clients cannot have ads, tracking, or data collection. However, you can take donations from users of your client on any donation platform.
@@ -41,7 +42,7 @@ In other words, this RFC Doesn't go easy on you.
 
 ### Code Optimizations
 
-You can either use M.js, a similar library, or follow [Design practices]. 
+You can either use M.js, a similar library, or follow [Design practices](#design-practices). 
 
 We suggest that you use M.js, as it provides a nicer way to interact with the Meower API, and also provides features that help with server performance. (Eg. Caching user data)
 
