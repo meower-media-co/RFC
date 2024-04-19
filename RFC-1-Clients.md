@@ -60,11 +60,10 @@ If you are using M.js, or a similar library you do not need to follow this sub-p
     Again the WebSocket provides this to you.
 - Do not grab the post IDs.
     You instead should use `?autoget` to grab the posts automatically.
-- Client side ratelimiting. 
+- There must be a cooldown when posting/messaging
+	For futureproofing, when posting it should be 5 seconds. (THIS IS ONLY FOR THE NEW HOME, NOT CURRENT MEOWER.)
 
-    This means that the client would keep track of requests, and stop them if the request count is too high for that endpoint/set of endpoints.
-
-    For example: Not sending like a post if the user has sent too many
+  	messaging (Posting as of right now) should be 1 second
 
 ### Vulnerabilities
 
