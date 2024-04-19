@@ -5,7 +5,7 @@ Authored by: ShowierData9978 <contact@showierdata.xyz>, Bloctans <bloctans2@prot
 
 Please remember to **READ THIS RFC VERY CAREFULLY**.
 
-This RFC applies to all **clients** that **want to get** featured. If you **make a client** just **for the fun** of it, you **DO NOT** need to follow this RFC, however it's recommended that you at least follow [Vulnerabilities](#vulnerabilities) and not make clients that break the Meower TOS, or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
+This RFC applies to all **clients** that **want to get** featured. If you **make a client** just **for the fun** of it, you **DO NOT** need to follow this RFC, however it's recommended that you at least follow [Vulnerabilities](#vulnerabilities) and not make clients that break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
 
 This also applies to client plugins in relevant areas (ie: [Design Practices](#design-practices))
 
@@ -32,15 +32,14 @@ In other words, this RFC doesn't go easy on you.
 
 ## Rules
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
-- This should be obvious, however clients must not break the Meower TOS, or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
+- This should be obvious, however clients must not break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
 - Custom privacy policies are allowed, but they are **HIGHLY DISCOURAGED**
-	- Custom privacy policies **DO NOT** provide a good user experience
+	- The reasoning is that Custom privacy policies **DO NOT** provide a good user experience
 - Plugins are allowed, and are encouraged. They must still follow this RFC.
 - Clients must have their own page so users can use it after it has been cycled out of being the featured client.
 - Clients cannot have ads, tracking, or data collection. However, you can take donations from users of your client on any donation platform.
 - We reserve the right to hold you back from being a featured client if we have suspicion that you are using any kind of loophole in the RFC.
 - We reserve the right to add a client to the featured list even if it does not follow guidelines.
-
 
 ## Guidelines
 
@@ -113,6 +112,7 @@ We also have listed features that can be optionally excluded
 - Home page
     - You can exclude the ulist.
 - ALL settings* (APTE)
+	- Setting categories have to be APTE
     - You can exclude Layout and BGM
     - You can exclude Sound Effects too, however we recommend you keep them.
 - Searching (APTE)
