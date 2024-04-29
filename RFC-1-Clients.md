@@ -97,23 +97,23 @@ Some of the common vulnerabilities include:
 To be featured, your client must have atleast have these features. 
 
 We also have listed features that can be optionally excluded
-- User profiles (APTE)
-- Custom PFPs 
+- User profiles (APTE).
+- Custom PFPs.
 - Default PFPs, extra can be added by uploading as a custom PFP.
 - Post/user reporting.
 - Chats:
-    - Chat Member management (APTE)
-    - Creating Chats
-- Logging in/signing up
-- Home page
+    - Chat Member management (APTE).
+    - Creating Chats.
+- Logging in/signing up.
+- Home page.
     - You can exclude the ulist.
-- ALL settings* (APTE)
-	- Setting categories have to be APTE
-    - You can exclude Layout and BGM
+- ALL settings* (APTE).
+	- Setting categories have to be APTE.
+    - You can exclude Layout and BGM.
     - You can exclude Sound Effects too, however we recommend you keep them.
-- Searching (APTE)
-- Blocking/reporting users
-- Bridge support
+- Searching (APTE).
+- Blocking/reporting users.
+- Bridge support.
     Meower has various bridges that are offical, or are community made. They need to be supported so the syntax is not shown, leading to worse UX. 
 
     The current list of supported bridges are:
@@ -122,7 +122,7 @@ We also have listed features that can be optionally excluded
 	    - Webhooks (uses a diffrent style for bridged posts)
 - Sending typing indication. You do not need to show who is typing.
 - Markdown (APTE if you want, markdown itself is not optional). 
-- Image host whitelist (until we get a image reflector), can be disabled by the user (with warning before disabling!)
+- Image host whitelist (until we get a image reflector), can be disabled by the user (with warning before disabling!).
     
     Current list of allowed image hosts:
     - https://meower.org/
