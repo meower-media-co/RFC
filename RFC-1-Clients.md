@@ -116,11 +116,13 @@ We also have listed features that can be optionally excluded
 - Bridge support.
     Meower has various bridges that are offical, or are community made. They need to be supported so the syntax is not shown, leading to worse UX. 
 
+
     The current list of supported bridges are:
-        - Discord
-        - Revolt/Revower (Dead)
-        - Webhooks (uses a diffrent style for bridged posts)
-        - gc *internal only*
+
+    - Discord
+    - Revolt/Revower (Dead)
+    - Webhooks (uses a diffrent style for bridged posts)
+    - gc *internal only*
 - Sending typing indication. You do not need to show who is typing.
 - Markdown (APTE if you want, markdown itself is not optional). 
 - Image host whitelist (until we get a image reflector), can be disabled by the user (with warning before disabling!).
