@@ -57,8 +57,6 @@ If you are using M.js or a similar library, you do not need to follow this part 
    We provide updates to chats on the WebSocket, so you can cache them.
 - Store the posts & don't spam the API to get new posts.   
     The WebSocket provides this to you as well.
-- Do not grab the post IDs.
-    You instead should use `?autoget` to grab the posts automatically.
 
 ### Vulnerabilities
 
