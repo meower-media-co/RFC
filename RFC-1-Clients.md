@@ -34,7 +34,7 @@ In other words, this RFC doesn't go easy on you.
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
 - This should be obvious, however clients must not break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
 - Custom privacy policies are allowed, but they are **HIGHLY DISCOURAGED**
-	- The reasoning is that Custom privacy policies **DO NOT** provide a good user experience
+  - Custom privacy policies **DO NOT** provide a good user experience
 - Plugins are allowed, and are encouraged. They must still follow this RFC.
 - Clients must have their own page so users can use it after it has been cycled out of being the featured client.
 - Clients cannot have ads, tracking, or data collection. However, you can take donations from users of your client on any donation platform.
@@ -51,12 +51,12 @@ We suggest that you use M.js, as it provides a nicer way to interact with the Me
 
 ### Design Practices
 
-If you are using M.js, or a similar library you do not need to follow this sub-part of the RFC. The library should have implemented it for you.
+If you are using M.js or a similar library, you do not need to follow this part of the RFC. The library should have implemented it for you.
 
 - Do not fetch the chat list every time the user goes onto the page. 
-   We provide updates to chats on the WebSocket. Basically just cache 
+   We provide updates to chats on the WebSocket, so you can cache them.
 - Store the posts & don't spam the API to get new posts.   
-    Again the WebSocket provides this to you.
+    The WebSocket provides this to you as well.
 - Do not grab the post IDs.
     You instead should use `?autoget` to grab the posts automatically.
 
@@ -70,8 +70,8 @@ The easiest fix to most of these issues is to just do it APTE.
 Some of the common vulnerabilities include:
 - XSS (Cross site scripting attacks)
     - Read more about XSS [here](https://en.wikipedia.org/wiki/Cross-site_scripting) 
-    - If you aren't using a web framework, you might use innerHTML for posts, **DO NOT** do this.
-    - For markdown, make sure that your parser works properly, we can't give alot of details on how to do this well, as parser implementations vary. Its best to just do markdown APTE.
+    - If you aren't using a web framework, avoid using innerHTML directly for user generated content.
+    - For Markdown, make sure that your parser works properly. We can't give a lot of details on how to do this well, as parser implementations vary. It's best to just do Markdown APTE.
 - Storing user data insecurely. You should do it APTE
 - Having users run scripts in console
     - This isnt something you can really handle, however its important to warn users about the possibility.
@@ -94,7 +94,7 @@ Some of the common vulnerabilities include:
 
 (These are the **FEATURES** you need to have in your client)
 
-To be featured, your client must have atleast have these features. 
+To be featured, your client must have at least these features. 
 
 We also have listed features that can be optionally excluded
 - User profiles (APTE).
@@ -103,7 +103,7 @@ We also have listed features that can be optionally excluded
 - Post/user reporting.
 - Chats:
     - Chat Member management (APTE).
-    - Creating Chats.
+    - Creating chats.
 - Logging in/signing up.
 - Home page.
     - You can exclude the ulist.
