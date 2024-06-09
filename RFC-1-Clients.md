@@ -95,6 +95,7 @@ Some of the common vulnerabilities include:
 To be featured, your client must have at least these features. 
 
 We also have listed features that can be optionally excluded
+- Sending, editing,or deleting posts
 - User profiles (APTE).
 - Custom PFPs.
 - Default PFPs, extra can be added by uploading as a custom PFP.
