@@ -57,6 +57,7 @@ If you are using M.js or a similar library, you do not need to follow this part 
    We provide updates to chats on the WebSocket, so you can cache them.
 - Store the posts & don't spam the API to get new posts.   
     The WebSocket provides this to you as well.
+- You must use Websocket V1 (Merged [here](https://github.com/meower-media-co/Meower-Server/pull/242))
 
 ### Vulnerabilities
 
@@ -95,7 +96,8 @@ Some of the common vulnerabilities include:
 To be featured, your client must have at least these features. 
 
 We also have listed features that can be optionally excluded
-- Sending, editing,or deleting posts
+- Sending, editing, and deleting posts.
+- Updating chats when added to/removed from one.
 - User profiles (APTE).
 - Custom PFPs.
 - Default PFPs, extra can be added by uploading as a custom PFP.
@@ -109,7 +111,7 @@ We also have listed features that can be optionally excluded
 - ALL settings* (APTE).
 	- Setting categories have to be APTE.
     - You can exclude Layout and BGM.
-    - You can exclude Sound Effects too, however we recommend you keep them.
+    - You can exclude Sound Effects too, however we recommend you keep them so they can be used for notifications. 
 - Searching (APTE).
 - Blocking/reporting users.
 - Bridge support.
@@ -119,12 +121,11 @@ We also have listed features that can be optionally excluded
     The current list of supported bridges are:
 
     - Discord
-    - Revolt/Revower (Dead)
-    - Webhooks (uses a diffrent style for bridged posts)
     - gc *internal only*
+
 - Sending typing indication. You do not need to show who is typing.
 - Markdown (APTE if you want, markdown itself is not optional). 
-- Image host whitelist (until we get a image reflector), can be disabled by the user (with warning before disabling!).
+- Image host whitelist (until we get a image reflector), can be disabled by the user (with a warning before disabling!).
     
     Current list of allowed image hosts:
     - https://meower.org/
@@ -147,6 +148,7 @@ We also have listed features that can be optionally excluded
     - https://uploads.scratch.mit.edu/
     - https://cdn.discordapp.com/
     - https://media.discordapp.net/
+
 - Option to switch to an external sever.
 
     The client does not need to support servers with breaking changes. The only exception to this is when the offical server makes a breaking change.       
