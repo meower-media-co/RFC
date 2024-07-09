@@ -33,8 +33,6 @@ In other words, this RFC doesn't go easy on you.
 ## Rules
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
 - This should be obvious, however clients must not break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
-- Custom privacy policies are allowed, but they are **HIGHLY DISCOURAGED**
-  - Custom privacy policies **DO NOT** provide a good user experience
 - Plugins are allowed, and are encouraged. They must still follow this RFC.
 - Clients must have their own page so users can use it after it has been cycled out of being the featured client.
 - Clients cannot have ads, tracking, or data collection. However, you can take donations from users of your client on any donation platform.
