@@ -1,7 +1,7 @@
 # RFC 0 - Meower Development Process
 Authored by: ShowierData9978 <contact@showierdata.xyz> Meower Team, on Saturday, Febuary, 26, 2024
 
-Based on original RFC draft authored by William Horning <github@williamhorning.dev>
+Based on original RFC draft authored by William Horning <github@williamhorning.eu.org>
 ---
 The Meower Development process is made of multiple teams and processes and this document is meant to describe each team, their function, and the Meower Development workflow.
 ## Teams
