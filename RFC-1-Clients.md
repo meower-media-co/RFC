@@ -1,8 +1,6 @@
 # RFC-1 - Client feature spec
 Authored by: ShowierData9978 <contact@showierdata.xyz>, Bloctans <bloctans2@protonmail.com>, derpygamer2142 <derpygamer2142@gmail.com>, Meower Team, on 4/18/24 (CT).
 
-**Note: This is currently a draft**
-
 Please remember to **READ THIS RFC VERY CAREFULLY**.
 
 This RFC applies to all **clients** that **want to get** featured. If you **make a client** just **for the fun** of it, you **DO NOT** need to follow this RFC, however it's recommended that you at least follow [Vulnerabilities](#vulnerabilities) and not make clients that break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
