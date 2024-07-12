@@ -28,8 +28,6 @@ This document may be hard to understand for some readers, as it assumes that you
 If you do not have any background in this, then it will be harder to understand the references this RFC makes. Therefore, it will be harder to make a featured client.
 
 
-In other words, this RFC doesn't go easy on you.
-
 ## Rules
 - You **MAY NOT** create a client for **"malicous intent"**, we will carefully review your client to make sure that you aren't breaking any guidelines.
 - This should be obvious, however clients must not break the Meower TOS or Privacy Policy (unless stated otherwise, eg. custom privacy policy)
@@ -121,9 +119,9 @@ We also have listed features that can be optionally excluded
     - Discord
     - gc *internal only*
 
-- Sending typing indication. You do not need to show who is typing.
+- Sending typing indication. You do not need to show who is typing. (can be disabled by the user) 
 - Markdown (APTE if you want, markdown itself is not optional). 
-- Image host whitelist (until we get a image reflector), can be disabled by the user (with a warning before disabling!).
+- Image host whitelist, can be disabled by the user (with a warning before disabling!).
     
     Current list of allowed image hosts:
     - https://meower.org/
@@ -152,5 +150,4 @@ We also have listed features that can be optionally excluded
     The client does not need to support servers with breaking changes. The only exception to this is when the offical server makes a breaking change.       
 
 # Updates to this RFC
-
-Clients will have 60 days to add features that are added to this RFC after the update is published. There will be a 1 week grace period before being removed from the list of featured clients.
+Clients will have 67 days to develop and push a feature before being removed from the featured clients. (60 days to develop, 7 to push & publish)
