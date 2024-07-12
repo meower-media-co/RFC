@@ -67,7 +67,7 @@ Some of the common vulnerabilities include:
     - For Markdown, make sure that your parser works properly. We can't give a lot of details on how to do this well, as parser implementations vary. It's best to just do Markdown APTE.
 - Storing user data insecurely. You should do it APTE
 - Having users run scripts in console
-    - This isnt something you can really handle, however its important to warn users about the possibility.
+    - This isn't something you can really handle, however it's important to warn users about the possibility.
     - We have prepared an example script for this case (JS)
         ```js 
             console.log('%cStop!', 'color: #F00; font-size: 30px; -webkit-text-stroke: 1px black; font-weight:bold');
