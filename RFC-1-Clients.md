@@ -114,7 +114,6 @@ We also have listed features that can be optionally excluded
 
     The current list of supported bridges are:
 
-    - Discord
     - gc *internal only*
 
 - Sending typing indication. You do not need to show who is typing. (can be disabled by the user) 
