@@ -19,7 +19,7 @@ Authored by: ShowierData9978 <contact@showierdata.xyz> on 4/18/24 (CT).
 
 - Cache chat and post data
 - Use Cloudlink to get updates to cached information
-- You must use  V1 (Merged [here](https://github.com/meower-media-co/Meower-Server/pull/242))
+- You must use V1 of the WebSocket Server
 
 ### Vulnerabilities
 
