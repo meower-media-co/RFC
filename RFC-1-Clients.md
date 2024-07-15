@@ -5,8 +5,6 @@ Authored by: ShowierData9978 <contact@showierdata.xyz> on 4/18/24 (CT).
 
 - Us/We - The Meower team
 
-
-
 ## Rules
 - Clients created for malicious intent will not be featured
 - Clients must have their own Privacy Policy
