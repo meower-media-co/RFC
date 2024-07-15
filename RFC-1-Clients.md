@@ -73,4 +73,3 @@ To be featured, your client must have at least these features.
     - https://cdn.discordapp.com/
     - https://media.discordapp.net/
 
-- Option to switch to an external sever.
