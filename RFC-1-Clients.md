@@ -28,27 +28,28 @@ If your client is discovered to have a vulnerability, you must fix said vulnerab
 ### Feature Parity
 To be featured, your client must have at least these features. 
 
-- Sending, editing, and deleting posts.
-- Updating chats when added to/removed from one.
+- Sending, editing, and deleting posts
+- Updating chats when added to/removed from one
 - User profiles
 	- Quotes
 - Profile picture support
-- Post/user reporting.
+- Post/user reporting
 - Chats:
-    - Chat Member management.
-    - Creating chats.
-- Logging in/signing up.
-- Home page.
-- settings*
+    - Chat creation
+    - Chat member management
+- Logging in
+- Signing up
+- Home page
+- Settings
 	- Quote
-   	- updating profile pictures
-   	- disabling typing indicator. 
-- Searching Users.
-- Searching Posts.
-- Blocking users.
+  - Profile pictures
+ 	- Typing indicator
+- Searching users
+- Searching posts
+- Blocking users
 - Typing indicator support that users must be able to disable
-- CommonMark (Markdown) 
-- Image host whitelist, can be disabled by the user (with a warning before disabling!).
+- CommonMark support 
+- Image host whitelist, can be disabled by the user (with a warning before disabling)
     
     Current list of allowed image hosts:
     - https://meower.org/
