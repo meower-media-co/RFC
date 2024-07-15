@@ -1,5 +1,6 @@
 # RFC-1 - Featured Client Requirements
 Authored by: ShowierData9978 <contact@showierdata.xyz> on 4/18/24 (CT).
+
 ## Terms/Definitions
 
 - Us/We - The Meower team
